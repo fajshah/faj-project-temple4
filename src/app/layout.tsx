@@ -1,5 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import type { Metadata } from "next";
+
+
 import localFont from "next/font/local";
 import "./globals.css";
 // Load custom fonts with variable definitions for easy reference in CSS
