@@ -86,7 +86,7 @@ function Header() {
                 )}
               </li>
               <li>
-                <Link className="hover:text-[#FB2E86] transition-colors" href="/shoplist">
+                <Link className="hover:text-[#FB2E86] transition-colors" href="/products">
                   Products
                 </Link>
               </li>
@@ -172,7 +172,8 @@ function Header() {
                     </li>
               <li className="px-4 py-2 hover:bg-gray-100">
                 <Link href="/faq">FAQ</Link>
-              </li>
+                </li>
+    
             </ul>
           )}
 

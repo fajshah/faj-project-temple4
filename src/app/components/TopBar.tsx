@@ -1,6 +1,6 @@
 'use client';
 import Link from "next/link";
-import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaUser, } from 'react-icons/fa';
 import { useState } from 'react';
 
 const TopBar = () => {
@@ -46,7 +46,7 @@ const TopBar = () => {
 
           {/* Currency Selector */}
           <div
-            className="relative cursor-pointer flex items-center gap-1"
+            className="relative cursor-pointer flex items-center gap-1 text-sm-hide"
             onMouseEnter={() => setCurrencyDropdown(true)}
             onMouseLeave={() => setCurrencyDropdown(false)}
           >
