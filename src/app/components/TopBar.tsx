@@ -8,8 +8,8 @@ const TopBar = () => {
   const [currencyDropdown, setCurrencyDropdown] = useState(false);
 
   return (
-     <div className="bg-violet-700  text-white py-2 text-sm md:flex flex-wrap">
-      <div className="w-full max-w-[1200px] mx-auto  items-center md:flex justify-between px-4 whitespace-nowrap">
+     <div className="bg-violet-700  text-white py-2 text-sm">
+      <div className="w-full max-w-[1200px] mx-auto  items-center  justify-between px-4 whitespace-nowrap">
         {/* Left Section */}
         <div className="flex items-center gap-6">
           {/* Email */}
