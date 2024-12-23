@@ -31,7 +31,7 @@ import Link from 'next/link';
       <FeaturedProducts/>
       <LatestProducts />
       <TrendingProducts />
-  
+      
       <Footer />
     </div>
    </div>

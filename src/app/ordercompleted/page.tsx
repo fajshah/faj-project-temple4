@@ -18,7 +18,7 @@ function OrderCompleted() {
           <div className="flex justify-center">
             <div className="w-24 h-24 bg-[#EDEFFB] rounded-full flex justify-center items-center">
               <Image
-                src="/images/icon5.png" // Path to your tick image
+                src="/images/icon5.png" 
                 alt="Order Completed Icon"
                 width={76}
                 height={76}
@@ -45,7 +45,7 @@ function OrderCompleted() {
           {/* Clock Icon */}
           <div className="flex justify-center items-center mt-4">
             <Image
-              src="/images/icon6.png" // Path to your clock image
+              src="/images/icon6.png" 
               alt="Clock Icon"
               width={80}
               height={80}

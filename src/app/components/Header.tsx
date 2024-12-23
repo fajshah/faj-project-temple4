@@ -185,7 +185,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className="block py-2 hover:text-[#FB2E86]" href="/shoplist">
+              <Link className="block py-2 hover:text-[#FB2E86]" href="/products">
                 Products
               </Link>
             </li>
